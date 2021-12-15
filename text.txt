@@ -1,0 +1,135 @@
+1	BTC	Bitcoin	35,60,790.77	-1.19	
+2	ETH	Ethereum	2,86,946.78	-1.33	
+3	BNB	Binance Coin	39,293.51	-2.85	
+4	USDT	Tether	76.25	0.48	
+5	HEX	HEX	15.33	31.5	
+6	SOL	Solana	11,743.05	-1.79	
+7	ADA	Cardano	93.72	-1.02	
+8	USDC	USD Coin	76.19	0.4	
+9	XRP	XRP	60.74	0.09	
+10	DOGE	Dogecoin	14.48	19.51	
+11	LUNA	Terra	4,447.85	5.24	
+12	DOT	Polkadot	1,951.46	-3.82	
+13	AVAX	Avalanche	6,119.25	-0.02	
+14	SHIB	Shiba Inu	0	-0.69	
+15	BUSD	Binance USD	76.25	0.45	
+16	MATIC	Polygon	138.99	-0.5	
+17	WBTC	Wrapped Bitcoin	35,64,727.08	-1.05	
+18	LTC	Litecoin	11,260.94	-0.34	
+19	CRO	Crypto.com Coin	40.29	-3.69	
+20	TRX	TRON	6.55	-0.37
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ https://sweetalert2.github.io/#icons
+ 
+ 
+ fetch(
+        `https://api.coinpaprika.com/v1/tickers?quotes=INR`
+    )
+     for(let i=0; i<20; i++){
+                console.log(data[i].id);
+                console.log(data[i].quotes.INR.price);
+            }
+
+ btc-bitcoin   3717175.3184059393
+ eth-ethereum   304921.3904408555
+ bnb-binance-coin   42009.95715467559
+ usdt-tether   75.77864170337813
+ sol-solana   12595.494891941744
+ ada-cardano   100.10605759316503
+ hex-hex   11.574511867240034
+ xrp-xrp   63.34275941363106
+ usdc-usd-coin   75.81131054485151
+ dot-polkadot   2144.481925111868
+ luna-terra   4549.892668739348
+ doge-dogecoin   12.526833911183287
+ avax-avalanche   6524.876523080387
+ shib-shiba-inu   0.0026207761394382704
+ matic-polygon   148.87316409679354
+ busd-binance-usd   75.70881665874461
+ wbtc-wrapped-bitcoin   3718134.696357565
+ ltc-litecoin   11831.501530219406
+ cro-cryptocom-chain   44.27902342081769
+ algo-algorand   112.51665853825753
+
+
+
+
+
+
+ OHLint n;
+ cin>>n;
+ int a[n];
+ for(int i=0;i<n;i++){
+ cin>>a[i];
+ }
+      fetch(
+        `https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today/`
+    )
+
+"time_open": "2018-03-01T00:00:00Z",
+"time_close": "2018-03-01T23:59:59Z",
+"open": 856.012,
+"high": 880.302,
+"low": 851.92,
+"close": 872.2,
+"volume": 1868520000,
+"market_cap": 83808161204
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1	BTC	Bitcoin	3709453.18	-0.53	
+2	ETH	Ethereum	304391.86	-0.44	
+3	BNB	Binance Coin	41821.89	-2.25	
+4	USDT	Tether	75.85	0.45	
+5	SOL	Solana	12727.85	-0.89	
+6	HEX	HEX	11.79	7.38	
+7	ADA	Cardano	99.70	-2.03	
+8	XRP	XRP	62.88	0.71	
+9	USDC	USD Coin	75.86	0.37	
+10	DOT	Polkadot	2138.07	-0.38	
+11	LUNA	Terra	4471.62	-3.56	
+12	DOGE	Dogecoin	12.54	-1.18	
+13	AVAX	Avalanche	6405.01	-0.38	
+14	SHIB	Shiba Inu	0.00	1.25	
+15	BUSD	Binance USD	75.81	0.46

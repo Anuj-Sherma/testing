@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+  background-color: rgb(85, 82, 82);
+}
+
+#buyBox{
+  border: 10px solid rgb(18, 68, 21);
+  border-radius: 30px;
+  font-size: 1.5rem;
+  background-color: rgb(107, 211, 113); 
+  margin-top: 20px; 
+  /* color: white; */
+   padding: 10px;
+}
+#buyFinal2{
+  width: 100px;
+  /* margin: 20px; */
+}
+
+#sellBox{
+  border: 10px solid rgb(18, 68, 21);
+  border-radius: 30px;
+  font-size: 1.5rem;
+  background-color: rgb(255 154 154); 
+  margin-top: 20px; 
+  /* color: white; */
+   padding: 10px;
+}
+
+#reloCurrValue{
+  background-color: blue;
+  color: white;
+}
